@@ -16,3 +16,23 @@ This is a simple example of [how to use OpenAI's CLIP model to search images in 
 supabase start
 ```
 
+### (Optional) Customize Images
+
+The project comes with 4 images from Lisbon, but you can change that by:
+
+1. Updating the image files in the `./images` folder
+2. And updating the `seed` function in `./image-search/main.py` to use these
+
+### Create embeddings for the images
+
+```bash
+poetry run seed
+```
+
+### Retrieve Result
+
+```bash
+poetry run search
+```
+
+This will return the image which better matches the predefined search query: `a bike in front of a red brick wall`.
