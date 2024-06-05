@@ -5,6 +5,10 @@ description = ""
 authors = ["Luis Miguel Serrano <luis.miguel.santos.serrano@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+seed = "image_search.main:seed"
+search = "image_search.main:search"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
