@@ -36,3 +36,9 @@ poetry run search
 ```
 
 This will return the image which better matches the predefined search query: `a bike in front of a red brick wall`.
+
+### Shutdown
+
+```bash
+supabase stop
+```
