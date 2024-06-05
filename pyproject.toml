@@ -11,6 +11,9 @@ search = "image_search.main:search"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+vecs = "^0.4.3"
+sentence-transformers = "^3.0.0"
+matplotlib = "^3.9.0"
 
 
 [build-system]
